@@ -1,11 +1,10 @@
 module main_api
 
-go 1.20
+go 1.23
 
 require (
 	github.com/gin-gonic/gin v1.8.2
 	github.com/stretchr/testify v1.8.1
-	gotest.tools/gotestsum v1.9.0
 )
 
 require (
@@ -15,8 +14,8 @@ require (
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-playground/validator/v10 v10.11.1 // indirect
 	github.com/goccy/go-json v0.9.11 // indirect
+	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/jstemmer/go-junit-report v1.0.0 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
